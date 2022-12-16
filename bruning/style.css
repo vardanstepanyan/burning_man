@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  background: url(imgs/header-bg.jpg);
+  width: 1600px;
+  height: 900px;
+  z-index: -1;
+}
+
+.nav-container {
+  margin: 0 auto;
+  padding: 57px 217px;
+}
+
+.nav-container nav {
+  width: 1169px;
+  height: 48px;
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  font-family: "Anton", sans-serif;
+  align-items: center;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  font-weight: 400;
+}
+
+.nav-bar .logo {
+  padding-right: 29.06px;
+}
+
+.nav-bar .nav-item {
+  padding-left: 40px;
+}
+
+.nav-bar .nav-ph-number a {
+  font-size: 17px;
+  padding-left: 623px;
+  white-space: nowrap;
+}
+
+.header-container {
+  position: absolute;
+  width: 511px;
+  height: 257px;
+  left: 213px;
+  top: 321px;
+}
+
+.header-container .offer {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header-container .offer p {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+.header-container .offer h1 {
+  font-size: 100px;
+  padding-bottom: 19px;
+  font-weight: 400;
+}
+
+.header-container .offer a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #fff;
+  border: 1px solid;
+  padding: 16px 48.8px;
+  margin-top: 19px;
+}
+
+/* 
+ As I can't calculate the points of the padding because of figma parameters, I give this kind of solution
+
+  .header-container .offer a::after {
+  content: "";
+  position: absolute;
+  width: 238px;
+  height: 57px;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0;
+  bottom: 0;
+} 
+ */
+
+.about {
+  padding: 113px 215px;
+}
+
+.context {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .title h2 {
+  white-space: nowrap;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 400;
+  padding-bottom: 58px;
+}
+
+.about div h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.about div p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  width: 564px;
+  color: #000;
+}
+
+.pictures {
+  padding-left: 216px;
+}
+
+.pictures img {
+  padding-right: 29px;
+}
+
+.copy-rigt {
+  padding-left: 216px;
+}
+
+.copy-rigt p {
+  padding-top: 114px;
+  padding-bottom: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
